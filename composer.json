@@ -1,0 +1,12 @@
+{
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "files": ["BattleHeroGame/BattleHeroGame.php",
+      "BattleHeroGame/Fighter.php","BattleHeroGame/Orderus.php", "BattleHeroGame/Beast.php"]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.2.2"
+  }
+}
