@@ -43,7 +43,7 @@ abstract class Fighter
             return false;
 
         //10% chance to use the skill
-        if(rand(0,100) <= 10)
+        if(rand(0,100) < 10)
             return true;
 
         return false;
@@ -57,7 +57,7 @@ abstract class Fighter
             return false;
 
         //20% chance to use the skill
-        if(rand(0,100) <= 20)
+        if(rand(0,100) < 20)
             return true;
 
         return false;
